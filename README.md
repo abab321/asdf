@@ -8,6 +8,8 @@ kloniraj ovaj projekt
 
 - pip install -r requirements.txt
 
+- cd backend
+
 - python3 manage.py migrate
 
 - python3 manage.py createsuperuser
@@ -17,3 +19,7 @@ kloniraj ovaj projekt
 voila
 
 puni bazu, testiraj
+
+localhost:8000/admin je nesto a la cms za ubacivanje sadrzaja
+
+localhost:8000/api su ti linkovi iz kojih vuces za frontend ( sve je GET osim api/kontakt koji je POST)
